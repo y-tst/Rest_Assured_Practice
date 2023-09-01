@@ -6,7 +6,7 @@ public class UnsuccessUserReg extends Register{
     public UnsuccessUserReg(String error,
                             String email,
                             String password) {
-        super(email,password);
+        super(email, password);
         this.error = error;
     }
 

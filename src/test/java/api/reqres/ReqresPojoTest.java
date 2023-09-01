@@ -56,7 +56,7 @@ public class ReqresPojoTest {
                 .map(x->x.getId().toString())
                 .collect(Collectors.toList());
         //проверка через сравнение двух списков
-        for (int i = 0; i<realPeopleAvatars.size(); i++){
+        for (int i = 0; i < realPeopleAvatars.size(); i++){
             Assertions.assertTrue(realPeopleAvatars.get(i).contains(realPeopleIds.get(i)));
         }
     }
